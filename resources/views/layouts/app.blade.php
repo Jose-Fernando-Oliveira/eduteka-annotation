@@ -6,9 +6,7 @@
 
         <title>Laravel</title>
 
-        <!-- Style CSS -->
-        <link href="{{asset('css/app.css')}}" rel="stylesheet" />
-        @stack('styles')
+        @vite('resources/css/app.css')
     </head>
     <body>
         @include('components.header')
